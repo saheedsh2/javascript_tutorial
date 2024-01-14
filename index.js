@@ -1,7 +1,11 @@
 const bob = document.querySelector('.face')
+let count = 0
 
 function moveBob(){
-    console.log('Moving');
+    count += 50
+    console.log(count)
+    bob.style.left = count + 'px'
+    
 }
 
 
